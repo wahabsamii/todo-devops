@@ -42,4 +42,4 @@ jobs:
           push: ${{ github.event_name == 'push' }}
           tags: abdulwahab945/todo-frontend:latest
           build-args: |
-            NEXT_PUBLIC_API_URL=http://localhost:5000/api
+            NEXT_PUBLIC_API_URL=/api
